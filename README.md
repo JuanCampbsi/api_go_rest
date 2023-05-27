@@ -57,7 +57,10 @@ $ go mod tidy
 # Run the application in development mode
 $ go run main.go
 
-# In order to create a container for this application, you'll need to run a specific Docker command. Please ensure that Docker is already installed on your machine before proceeding. If you don't have Docker installed, you can download it from the [official website](https://www.docker.com/products/docker-desktop).
+# In order to create a container for this application, you'll need to run a specific Docker command. 
+#Please ensure that Docker is already installed on your machine before proceeding. 
+#If you don't have Docker installed, you can download it from the 
+#[official website](https://www.docker.com/products/docker-desktop).
 
 $ docker compose up                                 
 
