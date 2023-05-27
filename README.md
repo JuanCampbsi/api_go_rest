@@ -19,7 +19,7 @@ This project aims to create a simple REST API using the Go programming language 
 
 <p align="center">
   <kbd>
- <img width="800" style="border-radius: 10px" height="400" src="" alt="Intro"> 
+ <img width="800" style="border-radius: 10px" height="400" src="https://github.com/JuanCampbsi/Preview_README/blob/231351c52b68b6a15709ce89888a400552c44fc3/assets/api_rest_go.gif" alt="Intro"> 
   </kbd>
   </br>
 </p>
