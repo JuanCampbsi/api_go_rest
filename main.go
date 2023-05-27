@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/JuanCampbsi/api_go_rest/database"
 	"github.com/JuanCampbsi/api_go_rest/models"
 	"github.com/JuanCampbsi/api_go_rest/routes"
 )
@@ -13,7 +14,7 @@ func main() {
 		{Id: 2, Name: "Name 2", History: "History 2"},
 		{Id: 3, Name: "Name 3", History: "History 3"},
 	}
-
-	fmt.Println("Initial app")
+	database.ConnectDataBase()
+	fmt.Println("Initial App rest GO")
 	routes.HandleRequest()
 }
